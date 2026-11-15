@@ -1,7 +1,6 @@
 # Frequenzgang des Lagers – Streamlit-Demo
 
-<!-- TODO nach dem Deploy: direkt hierher den Live-Link setzen (Leerzeile davor und danach):
-**[→ Demo live ausprobieren](https://sebastianhanisch-frequenzgang-lager-demo.streamlit.app/)** -->
+**[→ Demo live ausprobieren](https://sebastianhanisch-frequenzgang-lager-demo.streamlit.app/)**
 
 Stück 5 der Linie **Rückkopplung und Verzögerung** in der „Konzepte“-Reihe für die Website „Sebastian Hanisch – Operations Research und Machine Learning“. Die Linie fragt, wann ein Kreis aus Bestand, Fluss und Verzögerung schwingt, wächst oder kippt; ihr Vehikel ist ein Lager mit linearer Bestellregel (Lieferzeit L, Anpassung α, Leitungsgewicht β).
 Dieses Stück hängt als Kante `fix` an den Stücken 1 und 2 ([`lager-lieferzeit-demo`](https://github.com/sebastian-hanisch/lager-lieferzeit-demo): Grenze α_krit, Periode 4L − 2; [`leitung-mitrechnen-demo`](https://github.com/sebastian-hanisch/leitung-mitrechnen-demo): das Leitungsgewicht β): Grenze und Rauschverstärkung (bei β = 1: α/(2 − α)) sagen nicht, **welche** Schwankungen des Bedarfs die Regel verstärkt und wie stark.
